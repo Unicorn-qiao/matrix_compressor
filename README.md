@@ -5,14 +5,9 @@
   
   因此，这篇论文提出了一种新的算法：**LPLR（Randomized Low-Precision Low-Rank factorization）**，将原始矩阵A进行低秩分解，即 $\mathbf{A} \approx \mathbf{L}\mathbf{R}$，其中 L 和 R 是低秩因子, $\mathbf{L} \in \mathbb{R}^{n \times m}$ ， $\mathbf{R} \in \mathbb{R}^{m \times d}$，所以L 和 R 中的元素总数显著少于 A 中的元素总数，矩阵A被压缩。将低秩因子L和R量化为低精度格式，即用少量的bit表示，以减少存储需求，同时牺牲了精度。
   
-  **LPLR**
-     ![image](matrix_compressor/LPLR.jpg)
-     
-  **DSVD**
+   ![image](matrix_compressor/LPLR.jpg)
   ![image](matrix_compressor/DSVD.jpg)
-  
-  **LSVD**
-    ![image](matrix_compressor/LSVD.jpg)
+  ![image](matrix_compressor/LSVD.jpg)
  
 
 ## 安装环境
