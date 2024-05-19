@@ -25,3 +25,5 @@ conda activate lplr
 **var_q.ipynb**： Shepp-Logan phantom 非对称量化
 
 **lena.ipynb**： lena image 均匀抖动量化
+
+**artifacts**： 实验结果
